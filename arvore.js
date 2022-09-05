@@ -10,7 +10,6 @@ const listaMatriz = [['B', 'D'], ['D', 'E'], ['A', 'B'], ['C', 'F'], ['E', 'G'],
 //const listaMatriz = [['A', 'B'], ['B', 'D'], ['C', 'F'], ['D', 'E'],  ['A', 'C'], ['Q','Z'],['D','G']];
 
 let lista = listaMatriz.sort();
-console.log(lista);
 const listaPai = [];
 const listaFilho = [];
 const novaLista = [];
@@ -61,7 +60,7 @@ for (var i = 0; i < lista.length; i++) {
                     novaLista.indexOf(elementos, lista1);
 
                     novaLista.push(elementos, lista1);
-                    console.log(novaLista);
+                   
                 }
             } else {
                 paiFilho.pai = lista[i][0];
