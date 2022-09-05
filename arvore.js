@@ -1,34 +1,10 @@
-
-function enumerarLetras(letra) {
-    letra = letra.toLowerCase();
-    var numeros = [];
-    letra.split('').map(function (item) {
-        numeros.push((item.charCodeAt(0) - 97) + 1);
-    });
-    return numeros;
-}
-
-// let no = enumerarLetras(lista[i][0])
-// let pai = enumerarLetras(paiFilho.pai);
-// let filho = enumerarLetras(paiFilho.filho);
-
-var paiFilho = new Object();
-paiFilho.pai = null;
-paiFilho.filho = null;
-
-
-//const listaMatriz = [['A', 'B'], ['A', 'C'], ['C', 'D']];
 const listaMatriz = [['B', 'D'], ['D', 'E'], ['A', 'B'], ['C', 'F'], ['E', 'G'], ['A', 'C']];
-//const listaMatriz = [['A', 'B'], ['B', 'D'], ['C', 'F'], ['D', 'E'],  ['A', 'C'], ['Q','Z'],['D','G']];
 
 let lista = listaMatriz.sort();
 
 const listaPai = [];
 const listaFilho = [];
 const novaLista = [];
-
-
-
 
 for (var i = 0; i < lista.length; i++) {
 
