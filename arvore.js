@@ -5,9 +5,8 @@ paiFilho.pai = null;
 paiFilho.filho = null;
 
 
-//const listaMatriz = [['A', 'B'], ['A', 'C'], ['C', 'D']];
 const listaMatriz = [['B', 'D'], ['D', 'E'], ['A', 'B'], ['C', 'F'], ['E', 'G'], ['A', 'C']];
-//const listaMatriz = [['A', 'B'], ['B', 'D'], ['C', 'F'], ['D', 'E'],  ['A', 'C'], ['Q','Z'],['D','G']];
+
 
 let lista = listaMatriz.sort();
 const listaPai = [];
